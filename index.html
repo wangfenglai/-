@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0;padding: 0;}
+        ul{list-style: none;}
+        a{text-decoration: none;}
+        img{display: block;}
+        #max{  width: 1000px;  height: 500px; border: 1px solid red; position: relative; margin: 50px auto;}
+        .left{float: left;width: 400px; height: 490px; position: relative; border: 1px solid blue; left: 0;top:0;}
+        .smallSize{width: 400px; height:350px; border:1px solid #ccc; position: absolute;}
+        .smallSize img{  width: 400px;  height: 350px;}
+        .tuP{  width: 400px; height: 120px; overflow: hidden; position: absolute; top:360px; margin-left: 8px;}
+        .tuP ul li {float: left; margin: 0 4px;}
+        .tuP ul li a img{  height: 120px;  width: 120px;}
+        .right{ overflow: hidden; height: 420px;  width: 420px;  border:1px solid blue;  margin-left: 15px; position: absolute; left: 400px;}
+        .right img{ height: 600px;  width: 600px;}
+        .current{border: 2px solid yellow;}
+    </style>
+    <script src="jquery-2.1.1.min.js"></script>
+</head>
+<body>
+<div id="max">
+    <div class="left">
+        <div class="smallSize">
+            <img src="1.jpg" alt="">
+        </div>
+        <div class="tuP">
+            <ul>
+                <li class="current"><a href="javascript:;"><img src="1.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="2.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="3.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="4.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="5.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="6.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="7.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="8.jpg" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="right">
+        <img src="1.jpg" alt="图片">
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+*{  margin:0;  padding:0;  }
+li{  list-style: none;  }
+.zoom{  margin:50px;  width: 900px;  height: 410px;  border: 1px solid red;  position:relative;  }
+.middle{ width: 307px;height: 307px;margin:20px 20px 10px 20px;border: 1px solid darkgray;position: relative; }
+.middle img{width:307px;height: 307px;}
+.mask{width: 80px;height: 80px;background: #ffc534;opacity: 0.3;position: absolute;left:0;top:0;display: none; cursor:move}
+.small{width: 312px;height:63px;margin-left:20px;padding:1px;}
+.small span{float: left;height: 60px;line-height:60px;width:12px;text-align:center;border: 1px solid #ccc;cursor: pointer;}
+.right{margin-left:4px;}
+.small span.disable{cursor:default;background-color: #ccc;}
+.wrapSmallImg{float: left;height: 62px;width: 276px;position: relative;overflow: hidden;}
+.wrapSmallImg ul{width: 348px;position: absolute;left: 0;top: 0;}
+.wrapSmallImg ul li{float: left;width: 54px;height: 54px;border: 2px solid #ccc;margin: 0 4px;_display: inline;cursor: pointer; padding:2px;}
+.wrapSmallImg ul li.current{border: 2px solid orange;}
+.wrapSmallImg ul li img{width: 54px;height: 54px;}
+.zoomLarge{width: 350px;height: 350px;border: 1px solid #ccc;position: absolute;top: 20px;left: 340px;overflow: hidden; display:none;}
+.zoomLarge img{width: 600px;height:600px; position: absolute;  left: 0;  top: 0;  }

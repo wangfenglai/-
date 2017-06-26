@@ -1,0 +1,96 @@
+*{margin: 0; padding:0;}
+.max{width: 900px;height:500px;margin: 0 auto; position: relative; border: 1px solid red;cursor:pointer;}
+.middleImg{
+    width: 375px;
+    height:375px;
+    position: relative;
+    border:1px solid deepskyblue;
+    left:10px;
+    top:10px;
+}
+.middleImg img {
+    width: 375px;
+    height:375px;
+    display: block;
+}
+.mask{ position: absolute;
+    left: 0;
+    top:0;
+    width: 80px;
+    height:80px;
+    background: yellow;
+    opacity: 0.5;
+    cursor: move;
+    display: none;
+}
+.smallImg{
+    width: 365px;
+    height:64px;
+    position: relative;
+    border:1px solid #000;
+    left:10px;
+    top:30px;
+
+
+}
+.smallImg>span{
+    float: left;
+    width: 10px;
+    height:62px;
+    border:1px solid #ccc;
+    font-size: 14px;
+    color:#000;
+    line-height: 58px;
+}
+.ulImg{
+    width: 339px;
+    height:62px;
+    border:1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.ulImg ul{
+    width: 700px;
+    height:60px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.ulImg ul li{
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+    border:2px solid #ccc;
+}
+.ulImg ul li:nth-of-type(1){
+    margin-left: 15px;
+}
+.ulImg ul li img{
+    width: 58px;
+    height:58px;
+    display: block;
+}
+ul  li.active{
+    border:2px solid yellow;
+}
+.bigImg{
+    width: 455px;
+    height: 410px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    overflow: hidden;
+    display:none;
+}
+.bigImg img{
+    width: 600px;
+    height:600px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.disabled{
+    background: #ccc;
+}
